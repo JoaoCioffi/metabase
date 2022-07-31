@@ -14,4 +14,3 @@ FROM people p
 LEFT JOIN orders o ON o.user_id = p.id
 LEFT JOIN products prod ON prod.id = o.product_id
 WHERE o.created_at IS NOT NULL) "source"
-LIMIT 1048575
