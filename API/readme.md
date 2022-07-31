@@ -1,1 +1,1 @@
-~ Deploy of Dashboards ~
+~ Deployment methods ~
